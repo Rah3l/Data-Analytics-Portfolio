@@ -1,3 +1,0 @@
-#For this SQL project I will be answering 10 question from this data set
-#Let start by introducing the table 
-
