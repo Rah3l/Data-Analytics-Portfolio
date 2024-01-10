@@ -1,2 +1,34 @@
 # Data-Analytics-Portfolio
 Welcome to Rahel's Data Analytics Portfolio
+
+Check out my SQL project, where I took a data set about avocado sales and explored, cleaned and wrangled the data to answer questions for the business. This data set was sourced from: https://www.kaggle.com/datasets/mathurinache/avocado-augmented?resource=download
+
+The relevant variables in this data set are:
+          Date - The date of the observation
+          AveragePrice - the average price of a single avocado
+          type - conventional or organic
+          year - the year
+          Region - the city or region of the observation
+          Total Volume - Total number of avocados sold
+          4046 - Total number of avocados with PLU 4046 sold
+          4225 - Total number of avocados with PLU 4225 sold
+          4770 - Total number of avocados with PLU 4770 sold
+
+
+As part of the cleaning process the following were done:
+    1. the first colomn was called "unnamed: 0" and had irrelevant data so it was deleted
+    2. "year" was being presented as decimals so it was converted to an integer (2018.12489 --> 2018) 
+    3. there were no missing values in the data set
+
+The questions that were answered are: 
+
+Q1: what is the average price of avocados over the entire dataset? 
+Q2: What is the total volume of avocados sold for each year? & Which year had the highest total volume of avocados sold?
+Q3: What is the average price difference between conventional and organic avocados?
+Q4 : Which region had the highest average price for avocados in a specific year?
+Q4a : Regions with the highest average price for avocados in 2018 and after
+Q4b : Regions with the highest average price for avocados in 2017
+Q5: What is the average price per avocado for each PLU code (4046, 4225, 4770)?
+Q6: What is the percentage distribution of each avocado type (conventional or organic) over the entire dataset?
+Q7: What is the overall trend in avocado prices over the years?
+Q8: let's see the percentage decrease in price by year 
